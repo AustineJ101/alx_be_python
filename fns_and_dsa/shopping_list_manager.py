@@ -28,10 +28,10 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            item = input("Enter item you want to add: ")
+            item = input("Enter the item to add: ")
             add_item(item)
         elif choice == "2":
-            item = input("Enter item you want to remove: ")
+            item = input("Enter the item to remove: ")
             remove_item(item)
         elif choice == "3":
             display_list()
