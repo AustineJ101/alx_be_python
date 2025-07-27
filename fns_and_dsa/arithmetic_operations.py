@@ -1,4 +1,4 @@
-def perform_operations(num1, num2, operation):
+def perform_operation(num1, num2, operation):
     match operation:
         case "add":
             return num1 + num2
@@ -12,4 +12,4 @@ def perform_operations(num1, num2, operation):
             else:
                 return num1 / num2
 
-print(perform_operations(6, 0, "multiply"))
+
