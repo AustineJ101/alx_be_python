@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
         case "divide":
             if num2 == 0:
                 return "Infinity"
-            else:
+            elif:
                 return num1 / num2
 
 
